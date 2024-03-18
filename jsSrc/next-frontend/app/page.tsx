@@ -3,7 +3,7 @@ import "@/app/globals.css";
 
 export default function Page() {
     return (
-        <div className="bg-white dark:bg-slate-800">
+        <div className="dark">
             <div className="shrink-0">
                 <h1 className="text-3xl font-bold">Welcome to DATx</h1>
                 <p className="text-lg">Your Data Exploration Playground.</p>
