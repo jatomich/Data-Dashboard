@@ -12,7 +12,7 @@ export default async function ExplorePage() {
             <h1>Ready to Explore Some Data?</h1>
             <p>Make a Choice from the Selection Below</p>
             <div className="grid">
-                <a href='explore/data'><button>NetflixIMDb</button></a>
+                <a href='explore/netmdb'><button>NetflixIMDb</button></a>
                 <a href='explore/gemini'><button>Google Gemini</button></a>
             </div>
         </div>
