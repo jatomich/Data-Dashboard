@@ -84,5 +84,5 @@ sci-venv/
 
 # pocketbase
 pocketbase.exe
-*/pb_data/*
-*/pb_migrations/*
+jsSrc/next-frontend/pb_data
+jsSrc/next-frontend/pb_migrations
