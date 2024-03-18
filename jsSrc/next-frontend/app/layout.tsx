@@ -2,6 +2,7 @@
 import React from "react";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 
 function FloatingNavDemo() {
   const navItems = [
@@ -50,8 +51,10 @@ export default function RootLayout({
     return (
       <html lang="en">
         <body>
+          <TracingBeam className="p-6">
           {/* Layout UI */}
           <main>{children}</main>
+          </TracingBeam>
         </body>
       </html>
     )
